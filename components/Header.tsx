@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="flex flex-col">
       {/* Header for Small Screens */}
-      <header className="md:hidden flex justify-between items-center p-6 bg-blue-800 text-white">
+      <header className="md:hidden flex justify-between items-center p-6 bg-[#333333] text-white">
         <div className="flex items-center">
           <img src="/EA-logo-white.png" alt="Logo" className="w-10 h-10 mr-2" /> 
           <div className="text-xl font-semibold">Elsie Oduor</div>
@@ -47,9 +47,9 @@ const Header = () => {
       </header>
 
       {/* Header for Larger Screens */}
-      <header className="hidden md:flex justify-between items-center p-6 bg-blue-800 text-white">
+      <header className="hidden md:flex justify-between items-center p-6 bg-[#333333] text-white">
         <div className="flex items-center">
-          <img src="/EA-logo-white.png" alt="Logo" className="w-12 h-12 mr-4" /> {/* Replace with your logo */}
+          <img src="/EA-logo-white.png" alt="Logo" className="w-12 h-12 mr-4" /> 
           <div className="text-xl font-semibold">Elsie Oduor</div>
         </div>
         <nav className="flex space-x-4">

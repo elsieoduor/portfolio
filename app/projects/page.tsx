@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link'; // Import Link for navigation
 import Header from '@/components/Header';
 import { useState, useEffect } from 'react';
 import { FaDesktop, FaServer, FaPalette } from 'react-icons/fa';
@@ -67,12 +67,12 @@ export default function Projects() {
         {/* Projects Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
           {filteredProjects.map(project => (
-            <div key={project.id} className="bg-white shadow-md rounded-lg overflow-hidden">
-              <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
-              <div className="p-4">
-                <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
-              </div>
-            </div>
+            <Link href={`/projects/${project.id}`} key={project.id} passHref className="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
+                </div> 
+            </Link>
           ))}
         </div>
       </main>

@@ -1,7 +1,7 @@
 'use client';
 
 import Header from '@/components/Header';
-import { FaBuilding, FaCalendarAlt, FaStar } from 'react-icons/fa';
+import { FaBuilding, FaStar } from 'react-icons/fa';
 
 export default function Experience() {
   const experiences = [
@@ -37,7 +37,7 @@ export default function Experience() {
 
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center flex-grow p-6">
-        <h1 className="text-4xl font-bold mb-6 text-center">Experience</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Experience</h1>
 
         <div className="max-w-4xl w-full">
           {experiences.map((exp, index) => (
@@ -45,7 +45,7 @@ export default function Experience() {
               <div className="flex items-center mb-4">
                 <FaBuilding size={30} className="text-blue-600 mr-4" />
                 <div className="flex-grow">
-                  <h2 className="text-2xl font-semibold">{exp.title}</h2>
+                  <h2 className="text-xl md:text-2xl font-semibold">{exp.title}</h2>
                   <p className="text-gray-600">{exp.company}</p>
                   <p className="text-gray-500">{exp.year}</p>
                 </div>

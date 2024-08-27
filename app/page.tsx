@@ -1,28 +1,46 @@
 'use client';
 
-import { useState } from 'react';
-import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaBars } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
+import {Sheet, SheetContent,SheetHeader,SheetTitle,SheetTrigger,} from "@/components/ui/sheet";
 
 export default function Home() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="flex justify-between items-center p-6 bg-transparent">
+      {/* Header for Small Screens */}
+      <header className="md:hidden flex justify-between items-center p-6 bg-transparent">
         <div className="text-white text-xl font-semibold">Elsie Oduor</div>
-        <button 
-          className="text-white md:hidden" 
-          onClick={() => setIsNavOpen(!isNavOpen)}
-        >
-          &#9776;
-        </button>
-        <nav 
-          className={`md:flex md:space-x-6 absolute md:relative top-0 left-0 w-full md:w-auto bg-white md:bg-transparent transition-transform duration-300 ease-in-out ${isNavOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}
-        >
-          {/* Nav links could be added here */}
-        </nav>
+        <Sheet>
+          <SheetTrigger className="text-white text-2xl">
+            <FaBars />
+          </SheetTrigger>
+          <SheetContent className='bg-white'>
+            <SheetHeader>
+              <SheetTitle>Navigation</SheetTitle>
+            </SheetHeader>
+            <ul className="flex flex-col gap-4 mb-8 ">
+              <li><a href="/" className="hover:underline">Home</a></li>
+              <li><a href="/about" className="hover:underline">About</a></li>
+              <li><a href="/education" className="hover:underline">Education</a></li>
+              <li><a href="/experience" className="hover:underline">Experience</a></li>
+              <li><a href="/projects" className="hover:underline">Projects</a></li>
+              <li><a href="/skills" className="hover:underline">Skills</a></li>
+              <li><a href="/resume" className="hover:underline">Resume</a></li>
+              <li><a href="/contact" className="hover:underline">Contact</a></li>
+            </ul>
+            <div className="flex flex-wrap gap-6 mb-8">
+              <a href="https://www.linkedin.com/in/elsie-oduor-8844082a1/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={30} className="text-white hover:text-gray-300" />
+              </a>
+              <a href="https://github.com/elsieoduor" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={30} className="text-white hover:text-gray-300" />
+              </a>
+              <a href="mailto:eoatieno@gmail.com">
+                <FaEnvelope size={30} className="text-white hover:text-gray-300" />
+              </a>
+            </div>
+          </SheetContent>
+        </Sheet>
       </header>
 
       {/* Main Content */}
@@ -49,13 +67,27 @@ export default function Home() {
             repeat={Infinity}
           />
         </h2>
-        <ul className="flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0 p-6 md:p-0 text-white mb-6">
-          <li><a href="/" className=" active:underline">Home</a></li>
-          <li><a href="/about" className=" hover:underline">About</a></li>
-          <li><a href="/education" className=" hover:underline">Education</a></li>
+
+        {/* Social Media Links for Mobile */}
+        <div className="md:hidden flex flex-wrap gap-6 mb-8">
+          <a href="https://www.linkedin.com/in/elsie-oduor-8844082a1/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={30} className="text-white hover:text-gray-300" />
+          </a>
+          <a href="https://github.com/elsieoduor" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={30} className="text-white hover:text-gray-300" />
+          </a>
+          <a href="mailto:eoatieno@gmail.com">
+            <FaEnvelope size={30} className="text-white hover:text-gray-300" />
+          </a>
+        </div>
+
+        <ul className="hidden md:flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0 p-6 md:p-0 text-white mb-6">
+          <li><a href="/" className="hover:underline active:underline active:text-black">Home</a></li>
+          <li><a href="/about" className="hover:underline">About</a></li>
+          <li><a href="/education" className="hover:underline">Education</a></li>
           <li><a href="/experience" className="hover:underline">Experience</a></li>
           <li><a href="/projects" className="hover:underline">Projects</a></li>
-          <li><a href="/skills" className=" hover:underline">Skills</a></li>
+          <li><a href="/skills" className="hover:underline">Skills</a></li>
           <li><a href="/resume" className="hover:underline">Resume</a></li>
           <li><a href="/contact" className="hover:underline">Contact</a></li>
         </ul>
@@ -72,32 +104,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      {/* Mobile Links */}
-      <div className={`md:hidden flex flex-col items-start p-6 ${isNavOpen ? 'block' : 'hidden'}`}>
-        <ul className="flex flex-col gap-4 mb-8">
-          <li><a href="/" className=" active:underline">Home</a></li>
-          <li><a href="/about" className=" hover:underline">About</a></li>
-          <li><a href="/education" className=" hover:underline">Education</a></li>
-          <li><a href="/experience" className="hover:underline">Experience</a></li>
-          <li><a href="/projects" className="hover:underline">Projects</a></li>
-          <li><a href="/skills" className=" hover:underline">Skills</a></li>
-          <li><a href="/resume" className="hover:underline">Resume</a></li>
-          <li><a href="/contact" className="hover:underline">Contact</a></li>
-        </ul>
-
-        <div className="flex flex-wrap gap-6">
-          <a href="https://www.linkedin.com/in/elsie-oduor-8844082a1/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={30} className="text-white hover:text-gray-300" />
-          </a>
-          <a href="https://github.com/elsieoduor" target="_blank" rel="noopener noreferrer">
-            <FaGithub size={30} className="text-white hover:text-gray-300" />
-          </a>
-          <a href="mailto:eoatieno@gmail.com">
-            <FaEnvelope size={30} className="text-white hover:text-gray-300" />
-          </a>
-        </div>
-      </div>
     </div>
   );
 }

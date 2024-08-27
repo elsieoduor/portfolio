@@ -1,27 +1,50 @@
 [
-    {
-      "id": 1,
-      "title": "Portfolio Website",
-      "type": "frontend",
-      "image": "/projects/portfolio-website.png"
-    },
-    {
-      "id": 2,
-      "title": "E-commerce Platform",
-      "type": "backend",
-      "image": "/projects/ecommerce-platform.png"
-    },
-    {
-      "id": 3,
-      "title": "Brand Identity",
-      "type": "graphics",
-      "image": "/projects/brand-identity.png"
-    },
-    {
-      "id": 4,
-      "title": "Dashboard UI",
-      "type": "frontend",
-      "image": "/projects/dashboard-ui.png"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "type": "frontend",
+    "image": "/projects/portfolio-website.png",
+    "role": "Fullstack Developer",
+    "liveSite": "https://portfolio-website.example.com",
+    "github": "https://github.com/yourusername/portfolio-website",
+    "date": "August 2023",
+    "description": "A personal portfolio website to showcase my skills and projects.",
+    "skills": ["React", "Tailwind CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Platform",
+    "type": "backend",
+    "image": "/projects/ecommerce-platform.png",
+    "role": "Backend Developer",
+    "liveSite": "https://ecommerce-platform.example.com",
+    "github": "https://github.com/yourusername/ecommerce-platform",
+    "date": "June 2023",
+    "description": "An e-commerce platform with features like product management, shopping cart, and user authentication.",
+    "skills": ["Node.js", "Express", "MongoDB"]
+  },
+  {
+    "id": 3,
+    "title": "Brand Identity",
+    "type": "graphics",
+    "image": "/projects/brand-identity.png",
+    "role": "Graphic Designer",
+    "liveSite": null,
+    "github": null,
+    "date": "March 2023",
+    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "skills": ["Adobe Illustrator", "Photoshop"]
+  },
+  {
+    "id": 4,
+    "title": "Dashboard UI",
+    "type": "frontend",
+    "image": "/projects/dashboard-ui.png",
+    "role": "Frontend Developer",
+    "liveSite": null,
+    "github": "https://github.com/yourusername/dashboard-ui",
+    "date": "January 2023",
+    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "skills": ["React", "Chart.js", "CSS"]
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "type": "frontend",
+      "image": "/projects/portfolio-website.png"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce Platform",
+      "type": "backend",
+      "image": "/projects/ecommerce-platform.png"
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity",
+      "type": "graphics",
+      "image": "/projects/brand-identity.png"
+    },
+    {
+      "id": 4,
+      "title": "Dashboard UI",
+      "type": "frontend",
+      "image": "/projects/dashboard-ui.png"
+    }
+  ]
+  

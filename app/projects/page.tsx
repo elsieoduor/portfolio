@@ -1,5 +1,5 @@
 'use client';
-import Link from 'next/link'; // Import Link for navigation
+import Link from 'next/link';
 import Header from '@/components/Header';
 import { useState, useEffect } from 'react';
 import { FaDesktop, FaServer, FaPalette } from 'react-icons/fa';
@@ -11,9 +11,12 @@ interface Project {
   image: string;
 }
 
+const ITEMS_PER_PAGE = 10;
+
 export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [filter, setFilter] = useState('all');
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     // Fetch the projects data from JSON file
@@ -26,6 +29,20 @@ export default function Projects() {
   const filteredProjects = filter === 'all'
     ? projects
     : projects.filter(project => project.type === filter);
+
+  // Calculate the projects to display on the current page
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const currentProjects = filteredProjects.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+  // Calculate the total number of pages
+  const totalPages = Math.ceil(filteredProjects.length / ITEMS_PER_PAGE);
+
+  // Helper function to determine button class
+  const buttonClass = (filterType: string) => (
+    filter === filterType
+      ? 'bg-white text-black' // Active button
+      : 'bg-gradient-to-r from-[#08203e] to-[#557c93] text-white' // Non-active button
+  );
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -40,25 +57,25 @@ export default function Projects() {
         <div className="mb-6 flex flex-wrap gap-2 justify-center">
           <button
             onClick={() => setFilter('all')}
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 flex items-center"
+            className={`px-4 py-2 rounded flex items-center ${buttonClass('all')}`}
           >
             All
           </button>
           <button
             onClick={() => setFilter('frontend')}
-            className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 flex items-center"
+            className={`px-4 py-2 rounded flex items-center ${buttonClass('frontend')}`}
           >
             Frontend <FaDesktop className="ml-2" />
           </button>
           <button
             onClick={() => setFilter('backend')}
-            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 flex items-center"
+            className={`px-4 py-2 rounded flex items-center ${buttonClass('backend')}`}
           >
             Backend <FaServer className="ml-2" />
           </button>
           <button
             onClick={() => setFilter('graphics')}
-            className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 flex items-center"
+            className={`px-4 py-2 rounded flex items-center ${buttonClass('graphics')}`}
           >
             Graphics <FaPalette className="ml-2" />
           </button>
@@ -66,14 +83,35 @@ export default function Projects() {
 
         {/* Projects Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
-          {filteredProjects.map(project => (
-            <Link href={`/projects/${project.id}`} key={project.id} passHref className="bg-white shadow-md rounded-lg overflow-hidden">
-                <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
-                </div> 
+          {currentProjects.map(project => (
+            <Link href={`/projects/${project.id}`} key={project.id} passHref className="bg-white shadow-md rounded overflow-hidden">
+              <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
+              </div> 
             </Link>
           ))}
+        </div>
+
+        {/* Pagination Controls */}
+        <div className="mt-6 flex justify-center gap-2">
+          <button
+            onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+            disabled={currentPage === 1}
+            className="bg-gray-500 text-white px-4 py-2 rounded disabled:opacity-50"
+          >
+            Previous
+          </button>
+          <span className="flex items-center px-4 py-2">
+            Page {currentPage} of {totalPages}
+          </span>
+          <button
+            onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+            disabled={currentPage === totalPages}
+            className="bg-gray-500 text-white px-4 py-2 rounded disabled:opacity-50"
+          >
+            Next
+          </button>
         </div>
       </main>
     </div>

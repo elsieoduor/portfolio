@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
+import Breadcrumb from '@/components/Breadcrumb';
 
 interface Project {
   id: number;
@@ -15,6 +16,7 @@ interface Project {
   date: string;
   description: string;
   skills: string[];
+  pdf?: string;
 }
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
@@ -46,8 +48,11 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-
+      
       <main className="flex flex-col items-center justify-center flex-grow p-6">
+        {/* Breadcrumb Navigation */}
+        <Breadcrumb />
+
         {/* Project Image */}
         <img
           src={project.image}
@@ -100,6 +105,18 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
             </span>
           ))}
         </div>
+
+        {/* PDF Link for Graphics Projects */}
+        {project.type === 'graphics' && project.pdf && (
+          <a
+            href={project.pdf}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block text-blue-500 hover:underline"
+          >
+            Download PDF
+          </a>
+        )}
       </main>
     </div>
   );

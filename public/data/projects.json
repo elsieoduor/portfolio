@@ -8,7 +8,7 @@
     "liveSite": "https://portfolio-website.example.com",
     "github": "https://github.com/yourusername/portfolio-website",
     "date": "August 2023",
-    "description": "A personal portfolio website to showcase my skills and projects.",
+    "description": "This project features a personal portfolio website designed to showcase my diverse skills and a curated selection of my most notable projects. Built with Next.js and styled with Tailwind CSS, the site provides a sleek, modern interface with smooth animations and a responsive layout. It includes sections for my resume, detailed project showcases, and a contact form, all aimed at creating an engaging experience for visitors and potential employers.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -20,7 +20,7 @@
     "liveSite": null,
     "github": "  https://github.com/yukiodesigns/CurrencyConverter.git",
     "date": "June 2024",
-    "description": "An e-commerce platform with features like product management, shopping cart, and user authentication.",
+    "description": "The Currency Converter project is a sophisticated backend application designed to handle real-time currency conversions. It leverages Node.js and Express for robust server-side operations, while MongoDB is used for data storage. The application features a comprehensive API that allows users to convert amounts between different currencies, retrieve historical conversion rates, and manage exchange rate data efficiently. The system is built to handle high traffic and provides accurate and fast responses.",
     "skills": ["Node.js", "Express", "MongoDB"]
   },
   {
@@ -33,7 +33,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "This project involves the creation of a distinctive flower logo as part of a broader brand identity initiative. Using Adobe Illustrator and Photoshop, I developed a logo that combines aesthetic appeal with symbolic significance, reflecting the brand's core values and market positioning. The project includes various color schemes, typography, and branding guidelines, ensuring that the logo is versatile and effective across different media and applications.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -45,7 +45,7 @@
     "liveSite": null,
     "github": "https://github.com/yourusername/dashboard-ui",
     "date": "August 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Admin Dashboard UI is a comprehensive frontend solution designed for administrative tasks and data visualization. Using Next.js and Tailwind CSS, this project features interactive charts, tables, and real-time data updates. The user interface is built to handle complex data sets and provide insights through intuitive visual elements, making it an essential tool for administrators and managers who need to monitor and analyze business metrics.",
     "skills": ["Next.js", "Node.js", "Tailwind CSS"]
   },
   {
@@ -57,7 +57,7 @@
     "liveSite": "http://www.mobivas.co.ke",
     "github": " https://github.com/elsieoduor/mobivas",
     "date": "August 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": " Mobivas is an advanced frontend project focusing on creating a user-friendly interface for a business dashboard. It showcases a modern design built with Next.js and Tailwind CSS, featuring interactive elements such as data visualizations, user management tools, and real-time updates. The site is optimized for performance and provides a seamless experience across different devices, making it a valuable asset for business operations and decision-making.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -69,7 +69,7 @@
     "liveSite": "https://mushroom-six.vercel.app/",
     "github": "https://github.com/elsieoduor/mushroom.git",
     "date": "July 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "Mara Gold is a sophisticated ecommerce application built to provide users with interactive visualizations. Using Next.js and Tailwind CSS, the project includes features such as dynamic cards, customizable checkout pages, and user-friendly navigation. The interface is designed to be intuitive and responsive, ensuring users can easily access and interpret their items on both desktop and mobile devices. It also has WhatsApp intergration.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -81,7 +81,7 @@
     "liveSite": "https://yukio-allinspire.vercel.app/",
     "github": "https://github.com/elsieoduor/YukioAllinspire.git",
     "date": "August 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "YukioAllinspire is a frontend project that presents an engaging user interface for a comprehensive prompts application. Built with Next.js and Tailwind CSS, the application includes interactive searchbar, real-time updates, and ability to copy. It is designed to provide users with a powerful tool for monitoring and analyzing various prompts, ensuring a smooth and efficient user experience.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -93,7 +93,7 @@
     "liveSite": null,
     "github": "https://github.com/elsieoduor/text_summmarizer_python.git",
     "date": "August 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "A user interface for a dashboard application with interactive data visualizations.The Text Summarizer project is a backend application developed to automatically generate concise summaries of long text documents. Utilizing Python, the application leverages natural language processing techniques to analyze and condense text while preserving the core meaning. The system is designed to be highly efficient and accurate, making it a valuable tool for users who need quick and reliable text summaries.",
     "skills": [ "Python"]
   },
   {
@@ -105,7 +105,7 @@
     "liveSite":"https://restaurant-webpage-sigma.vercel.app/",
     "github": "  https://github.com/elsieoduor/restaurant-webpage.git",
     "date": "August 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": " The Restaurant Webpage project involves creating a visually appealing and functional website for a restaurant. Built with React and Tailwind CSS, the site features a modern design with sections for menu displays, reservation systems, and contact information. The responsive layout ensures an optimal viewing experience on various devices, while interactive elements enhance user engagement and ease of navigation.",
     "skills": ["React", "Tailwind CSS"]
   },
   {
@@ -117,7 +117,7 @@
     "liveSite": null,
     "github": "  https://github.com/elsieoduor/YouTube_Downloader_App.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The YouTube Downloader App is a backend solution that allows users to download videos from YouTube. Developed using Python and integrated with a clean interface using Tailwind CSS, the application supports various video formats and resolutions. It features an intuitive user experience, providing users with straightforward options to save and manage their favorite videos from YouTube.",
     "skills": ["Python", "Tailwind CSS"]
   },
   {
@@ -129,7 +129,7 @@
     "liveSite": null,
     "github": "  https://github.com/elsieoduor/phase-3-week1codechallenge.git",
     "date": "July 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Code Challenge project involves tackling a complex programming problem with Python. The project focuses on implementing efficient solutions and demonstrating problem-solving skills. It includes detailed documentation and code comments to explain the logic and approach used, making it a useful resource for learning and understanding advanced coding techniques.",
     "skills": ["Python"]
   },
   {
@@ -141,7 +141,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/flight-booking-system.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Flight Booking system is a backend application designed to handle flight reservations and manage bookings. Using Node.js and MongoDB, the system includes features such as search functionality, booking management, and user authentication. It is built to handle high traffic and provide a seamless booking experience for users, with a focus on reliability and performance.",
     "skills": ["Node.js", "MongoDB"]
   },
   {
@@ -153,7 +153,7 @@
     "liveSite": null,
     "github": "  https://github.com/elsieoduor/phase3-week-3-codechallenge.git",
     "date": "June 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Restaurant Review System is a backend application developed to manage user reviews and ratings for restaurants. Using Python, the system features functionalities such as review submission, rating aggregation, and review moderation. The project is designed to support a high volume of user interactions and provide accurate and timely feedback for restaurants.",
     "skills": ["Python"]
   },
   {
@@ -165,7 +165,7 @@
     "liveSite": null,
     "github": "  https://github.com/elsieoduor/budget-app.git",
     "date": "September 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": " The Budget App is a frontend project aimed at helping users manage their finances efficiently. Built with React and CSS, the application features interactive charts, expense tracking, and budget planning tools. The user interface is designed to be intuitive and visually appealing, allowing users to easily monitor and manage their spending and savings.",
     "skills": ["React", "CSS"]
   },
   {
@@ -177,7 +177,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/node-authenticaton.git",
     "date": "May 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": " The Node Authentication project is a backend application that implements user authentication and authorization using Node.js and MongoDB. The system features secure login and registration processes, password hashing, and session management. It is designed to provide a robust and secure authentication framework for web applications.",
     "skills": ["Node.js", "MongoDB"]
   },
   {
@@ -189,7 +189,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/flask-role-auth.git",
     "date": "May 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "Flask Authentication is a backend project that focuses on implementing user authentication using Flask and Python. The application includes features such as role-based access control, secure login mechanisms, and user session management. It is built to provide a reliable and scalable authentication solution for web applications.",
     "skills": ["Python", "Flask"]
   },
   {
@@ -201,7 +201,7 @@
     "liveSite": null,
     "github": " https://github.com/elsieoduor/Phase-3-pythonproject.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Flight Booking project is a comprehensive backend system for managing flight reservations. Developed with Python, the application includes features such as flight search, booking management, and user authentication. It is designed to handle a large volume of transactions and provide a seamless booking experience for users.",
     "skills": ["Python"]
   },
   {
@@ -213,7 +213,7 @@
     "liveSite": null,
     "github": " https://github.com/yukiodesigns/Inventory-Stystem.",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Inventory System is a backend application designed to manage and track inventory for various products. Using Node.js, Express, and MongoDB, the system includes features such as stock management, product tracking, and inventory reports. The application is built to handle large amounts of data and provide accurate inventory information in real-time.",
     "skills": ["Node.js", "Express", "MongoDB"]
   },
   {
@@ -225,7 +225,7 @@
     "liveSite": null,
     "github": " https://github.com/yukiodesigns/MERN-todo-app.git ",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": " The MERN ToDo App is a full-stack project developed using MongoDB, Express, React, and Node.js. It features a user-friendly interface for managing to-do tasks, including functionalities such as task creation, editing, and deletion. The application is designed to be responsive and scalable, providing a seamless user experience for task management.",
     "skills": ["Node.js", "Express", "MongoDB", "React"]
   },
   {
@@ -237,7 +237,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/ContactManagementApp.git",
     "date": "November 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Contact Management App is a mobile application developed using Kotlin. It provides functionalities for managing and organizing contact information, including features such as adding, editing, and deleting contacts. The app is designed to be user-friendly and efficient, making it easy for users to manage their contact lists on mobile devices.",
     "skills": ["Kotlin"]
   },
   {
@@ -249,7 +249,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/CounterApp2.git",
     "date": "November 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Counter App is a mobile application developed using Kotlin, designed to provide users with a simple and effective way to count and track numerical values. The app features functionalities such as incrementing and decrementing values, resetting counts, and saving data. It is built to be intuitive and responsive, providing a seamless experience for users.",
     "skills": ["Kotlin"]
   },
   {
@@ -261,7 +261,7 @@
     "liveSite": null,
     "github": "  https://github.com/yukiodesigns/Todo-Django.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The ToDo Django project is a backend application developed using Django and Python. It features a task management system that allows users to create, update, and delete tasks. The application includes user authentication, task categorization, and reporting functionalities. It is designed to provide a robust and scalable solution for task management.",
     "skills": ["Node.js", "Express", "MongoDB"]
   },
   {
@@ -273,7 +273,7 @@
     "liveSite": null,
     "github": "  https://github.com/yukiodesigns/TopGamesApp.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Top Games project is a mobile application developed using Kotlin, focusing on providing users with information about popular games. It features functionalities such as game listings, ratings, and reviews. The app is designed to be engaging and user-friendly, offering a comprehensive overview of top games in the market.",
     "skills": ["Kotlin"]
   },
   {
@@ -285,7 +285,7 @@
     "liveSite": null,
     "github": "  https://github.com/yukiodesigns/job-listing-backend.git",
     "date": "January 2024",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Job Listing API is a backend application developed using Python and MySQL. It provides functionalities for listing and managing job postings, including features such as search filters, job categories, and application management. The API is designed to handle a high volume of job listings and provide accurate and up-to-date information to users.",
     "skills": ["Python", "MySQL"]
   },
   {
@@ -297,7 +297,7 @@
     "liveSite": "https://glacier-foods.vercel.app/",
     "github": "  https://github.com/yukiodesigns/glacier_foods.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Inventory System is a backend application developed using Node.js, Express, and MongoDB. It features functionalities for managing and tracking inventory levels, including product details, stock levels, and inventory reports. The system is designed to provide real-time updates and support efficient inventory management for businesses.",
     "skills": ["Node.js", "Express", "MongoDB"]
   },
   {
@@ -309,7 +309,7 @@
     "liveSite": null,
     "github": "  https://github.com/yukiodesigns/MusicApp.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Music App is a mobile application developed using Kotlin, designed to provide users with a platform for discovering and listening to music. It features functionalities such as music playback, playlist creation, and song search. The app is built to offer a seamless and enjoyable music experience for users.",
     "skills": ["Kotlin"]
   },
   {
@@ -321,7 +321,7 @@
     "liveSite": null,
     "github": "   https://github.com/yukiodesigns/Greetings-App.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Greetings System is a mobile application developed using Kotlin, focusing on providing users with personalized greeting messages and notifications. It includes features such as customizable messages, scheduling options, and user preferences. The app is designed to be engaging and user-friendly, offering a unique way for users to send and receive greetings.",
     "skills": ["Kotlin"]
   },
   {
@@ -333,7 +333,7 @@
     "liveSite": null,
     "github": "  https://github.com/yukiodesigns/LuckyNumberApp.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Lucky Number app is a mobile application developed using Kotlin, designed to generate and manage lucky numbers for users. The app features functionalities such as number generation, historical data tracking, and user preferences. It is built to provide a fun and interactive experience for users interested in lucky numbers.",
     "skills": ["Kotlin"]
   },
   {
@@ -345,7 +345,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/Unit-Converter-App.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Unit Converter App is a mobile application developed using Kotlin, designed to convert various units of measurement. It features a user-friendly interface for converting between units such as length, weight, and volume. The app is built to be accurate and efficient, providing users with reliable conversion results.",
     "skills": ["Kotlin"]
   },
   {
@@ -357,7 +357,7 @@
     "liveSite": "https://yuki-jobs.vercel.app/",
     "github": " https://github.com/yukiodesigns/yuki_jobs.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "Yuki Jobs is a frontend application developed using Next.js and Tailwind CSS, focusing on providing a clean and organized interface for job listings. The application features functionalities such as job search, filtering, and detailed job descriptions. It is designed to offer a seamless and engaging experience for users searching for job opportunities.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -369,7 +369,7 @@
     "liveSite": "https://estates-eight.vercel.app/",
     "github": "https://github.com/yukiodesigns/estates.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "Estates is a property management application with a frontend built using Next.js and Tailwind CSS. The project includes features for browsing real estate listings, viewing property details, and managing property information. The interface is designed to be visually appealing and easy to navigate, providing users with an effective platform for property management.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -381,7 +381,7 @@
     "liveSite":"https://yukio-tours.vercel.app/",
     "github": "https://github.com/yukiodesigns/yukio_tours.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "Yukio Tours is a frontend application developed using Next.js and Tailwind CSS, designed to showcase and manage tour packages. The project features interactive elements such as tour listings, package details, and booking options. The design is focused on providing an engaging and user-friendly experience for travelers and tour operators.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -393,7 +393,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/wrench-kitchen.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "Wrench Kitchen is a frontend project developed using Next.js and Tailwind CSS, aimed at creating an efficient kitchen management system. The application includes features for recipe management, ingredient tracking, and meal planning. The interface is designed to be intuitive and responsive, helping users streamline their kitchen operations.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -405,7 +405,7 @@
     "liveSite": "https://yukis-figma.vercel.app/",
     "github": "https://github.com/yukiodesigns/figma-clone.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Figma Clone project is a frontend design that replicates key functionalities of the Figma design tool. Built with Next.js and Tailwind CSS, the project includes features such as design collaboration, vector editing, and real-time updates. The design focuses on providing a similar user experience to Figma, making it a valuable tool for design projects.",
     "skills": ["Next.js", "Tailwind CSS"]
   },
   {
@@ -417,7 +417,7 @@
     "liveSite": null,
     "github": "https://github.com/yukiodesigns/ordering-system.git",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Ordering System is a backend application developed using Node.js, Express, and MongoDB. It features functionalities for managing customer orders, including order placement, tracking, and processing. The system is designed to handle a high volume of transactions and provide efficient order management for businesses.",
     "skills": ["Node.js", "Express", "MongoDB"]
   },
   {
@@ -429,7 +429,7 @@
     "liveSite": null,
     "github": " https://github.com/yukiodesigns/Inventory-Stystem.",
     "date": "August 2023",
-    "description": "A user interface for a dashboard application with interactive data visualizations.",
+    "description": "The Inventory System is a backend application developed with Node.js, Express, and MongoDB. It focuses on managing product inventory, including stock levels, product details, and inventory reports. The system is designed to offer real-time updates and support efficient inventory management for various business needs.",
     "skills": ["Node.js", "Express", "MongoDB"]
   },
   {
@@ -442,7 +442,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Sunset Logo project involves designing a logo with a sunset theme, focusing on creating a visually striking and memorable brand identity. Using Adobe Illustrator and Photoshop, the design incorporates sunset imagery with a color palette that enhances the logo's visual appeal. The project also includes branding guidelines to ensure consistent application across different media.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -455,7 +455,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Black and Gold Menu project features a sophisticated menu design that uses a black and gold color scheme. The design emphasizes elegance and luxury, incorporating detailed layout elements and branding guidelines. The project is aimed at creating a visually appealing and functional menu that enhances the dining experience.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -468,7 +468,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": " The Black and Pink Menu project involves designing a menu with a bold black and pink color scheme. The design focuses on creating a vibrant and engaging visual experience, with detailed layout and branding elements. The menu is crafted to attract attention and provide an appealing presentation of food and drink options.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -481,7 +481,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Bowl Logo project involves creating a logo centered around a bowl theme. The design incorporates various color schemes and branding guidelines to ensure the logo effectively represents the brand. Using Adobe Illustrator and Photoshop, the project aims to develop a unique and recognizable logo that aligns with the brand's identity.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -494,7 +494,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Yukawe Coffee Shop project focuses on developing a complete brand identity for a coffee shop. The project includes logo design, color schemes, and branding guidelines, aimed at creating a welcoming and distinctive brand presence. The design is intended to reflect the coffee shop's atmosphere and appeal to its target audience.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -507,7 +507,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Grey and White Menu project features a classic and elegant menu design using a grey and white color scheme. The design includes detailed layout elements and branding guidelines, focusing on creating a refined and professional appearance. The menu is crafted to enhance the dining experience with its clean and sophisticated design.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -520,7 +520,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "A brand identity project including logo design, color schemes, and branding guidelines. The Invitation Card project involves designing a personalized invitation card for various events. The design includes detailed artwork and layout elements, aimed at creating a visually appealing and memorable invitation. The project focuses on providing a unique and customized design that captures the essence of the event.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -533,7 +533,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Menu project features the creation of a detailed and visually appealing menu design. The project includes various layout options and branding elements, crafted to enhance the presentation of food and drink options. The design aims to provide a functional and attractive menu that improves the dining experience.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -546,7 +546,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Price Tag project involves designing price tags that are both functional and visually engaging. The design includes detailed artwork and branding guidelines, aimed at creating price tags that effectively display pricing information while enhancing the overall brand presentation. The project focuses on providing a cohesive and attractive price tag design.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   },
   {
@@ -559,7 +559,7 @@
     "liveSite": null,
     "github": null,
     "date": "August 2024",
-    "description": "A brand identity project including logo design, color schemes, and branding guidelines.",
+    "description": "The Salama Coffee Shop project is a brand identity initiative that includes logo design, color schemes, and branding guidelines for a coffee shop. The design aims to create a unique and inviting brand presence, reflecting the coffee shop's character and appeal. The project focuses on establishing a memorable and effective brand image.",
     "skills": ["Adobe Illustrator", "Photoshop"]
   }
 ]

@@ -14,7 +14,7 @@ export default function About() {
         {/* Image Section */}
         <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
           <img
-            src="/profile.jpg" 
+            src="/projects/profile.jpg" 
             alt="Elsie Oduor"
             className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover border-4 border-blue-800"
           />

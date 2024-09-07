@@ -61,7 +61,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
         />
 
         {/* Project Title */}
-        <h1 className="text-3xl md:text-4xl font-bold mb-2 text-center">{project.title}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">{project.title}</h1>
 
         {/* Project Details */}
         <div className="flex flex-col md:flex-row md:justify-between items-center w-full max-w-3xl mb-6">
@@ -92,7 +92,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
         </div>
 
         {/* Project Description */}
-        <p className="text-lg text-gray-700 mb-6 text-center">{project.description}</p>
+        <p className="text-lg text-white mb-6 text-center">{project.description}</p>
 
         {/* Skills and Technologies */}
         <div className="flex flex-wrap gap-4 justify-center">

@@ -7,9 +7,9 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Frontend Developer',
-      company: 'Tech Solutions Inc.',
-      year: '2022 - Present',
-      description: 'Worked on developing and maintaining the company\'s main web application. Collaborated with design and backend teams to implement new features and improve user experience.',
+      company: 'Freelance',
+      year: '2023 - Present',
+      description: 'Worked on developing and maintaining the main web application. Collaborated with design and backend teams to implement new features and improve user experience.',
       highlights: [
         'Implemented responsive designs with modern frameworks',
         'Optimized web application performance',
@@ -17,18 +17,75 @@ export default function Experience() {
       ],
     },
     {
-      title: 'Graphic Designer',
-      company: 'Creative Studio Ltd.',
-      year: '2019 - 2022',
-      description: 'Designed marketing materials, including brochures, flyers, and social media graphics. Worked closely with clients to understand their brand and create visually appealing designs.',
+      title: 'Fullstack Web Developer',
+      company: 'Freelance',
+      year: '2024',
+      location: 'Nairobi, KE',
+      description: 'Developed and maintained dynamic web applications using a tech stack including JavaScript, React, Python, Node.js, and Express.',
       highlights: [
-        'Created a new brand identity for several clients',
-        'Developed eye-catching visual content for social media',
-        'Streamlined design processes and increased efficiency'
+        'Designed and implemented RESTful APIs to support frontend features and ensure seamless integration',
+        'Collaborated with developers on project requirements and technical specifications',
+        'Engaged in code reviews and improved code quality'
+      ],
+    },
+    {
+      title: 'WordPress Developer',
+      company: 'Freelance',
+      year: '2024',
+      location: 'Nairobi, KE',
+      description: 'Created custom WordPress themes and plugins to enhance website functionality and design.',
+      highlights: [
+        'Delivered projects on time using PHP, HTML, CSS, and JavaScript',
+        'Leveraged WordPress and Elementor to improve website performance by 20%'
+      ],
+    },
+    {
+      title: 'Hackathon Participant',
+      company: 'Freelance',
+      year: '2024',
+      location: 'Nairobi, KE',
+      description: 'Collaborated with a team to develop and present a functional prototype in a month-long hackathon.',
+      highlights: [
+        'Utilized Kotlin, Next.js, and Firebase to build a solution for a Technician App',
+        'Presented the project to a panel of judges and demonstrated its technical innovation',
+        'Received a certificate of participation'
+      ],
+    },
+    {
+      title: 'Catalog Designer',
+      company: 'Freelance',
+      year: '2024',
+      location: 'Nairobi, KE',
+      description: 'Developed a comprehensive catalog for a crochet brand, enhancing visual appeal and product presentation.',
+      highlights: [
+        'Utilized Adobe InDesign for a cohesive layout',
+        'Praised for clean design and organization, increasing client interest and sales'
+      ],
+    },
+    {
+      title: 'Logo Designer',
+      company: 'Freelance',
+      year: '2024',
+      location: 'Nairobi, KE',
+      description: 'Created distinctive logos reflecting clients’ brand mission and values.',
+      highlights: [
+        'Designed versatile logos using Adobe Illustrator',
+        'Successfully established strong brand identities'
+      ],
+    },
+    {
+      title: 'Menu Designer',
+      company: 'Freelance',
+      year: '2024',
+      location: 'Nairobi, KE',
+      description: 'Designed visually appealing menus, enhancing user experience and brand alignment.',
+      highlights: [
+        'Used Adobe InDesign, Illustrator, and Photoshop to create effective menu layouts',
+        'Contributed to a more engaging dining experience with positive client feedback'
       ],
     }
-    // Add more experiences as needed
   ];
+  
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -41,7 +98,7 @@ export default function Experience() {
 
         <div className="max-w-4xl w-full">
           {experiences.map((exp, index) => (
-            <div key={index} className="bg-white shadow-md rounded-lg p-6 mb-6">
+            <div key={index} className="bg-[#FAF9F6] shadow-md rounded p-6 mb-6">
               <div className="flex items-center mb-4">
                 <FaBuilding size={30} className="text-blue-600 mr-4" />
                 <div className="flex-grow">

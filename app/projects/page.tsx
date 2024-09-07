@@ -40,8 +40,8 @@ export default function Projects() {
   // Helper function to determine button class
   const buttonClass = (filterType: string) => (
     filter === filterType
-      ? 'bg-white text-black' // Active button
-      : 'bg-gradient-to-r from-[#08203e] to-[#557c93] text-white' // Non-active button
+      ? 'bg-white text-black' 
+      : 'bg-[#08203e] text-white' // Non-active button
   );
 
   return (
@@ -84,7 +84,7 @@ export default function Projects() {
         {/* Projects Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
           {currentProjects.map(project => (
-            <Link href={`/projects/${project.id}`} key={project.id} passHref className="bg-white shadow-md rounded overflow-hidden">
+            <Link href={`/projects/${project.id}`} key={project.id} passHref className="bg-[#FAF9F6] shadow-md rounded overflow-hidden">
               <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h2 className="text-lg font-semibold mb-2">{project.title}</h2>

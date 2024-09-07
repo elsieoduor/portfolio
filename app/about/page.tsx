@@ -14,7 +14,7 @@ export default function About() {
         {/* Image Section */}
         <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
           <img
-            src="/profile-image.jpg" // Replace with your profile image path
+            src="/profile-image.jpg" 
             alt="Elsie Oduor"
             className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover border-4 border-blue-800"
           />
@@ -30,13 +30,13 @@ export default function About() {
           {/* Information Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base md:text-lg mb-4">
             <div>
-              <p><strong>Birthday:</strong> January 1, 1990</p>
+              <p><strong>Birthday:</strong> June 9, 2005</p>
             </div>
             <div>
               <p><strong>Location:</strong> Nairobi, Kenya</p>
             </div>
             <div>
-              <p><strong>Phone Number:</strong> +254 712 345678</p>
+              <p><strong>Phone Number:</strong> +254 728 969182</p>
             </div>
             <div>
               <p><strong>Email:</strong> eoatieno@gmail.com</p>
@@ -49,19 +49,19 @@ export default function About() {
       <div className="mt-6 p-6 w-full md:w-2/3 mx-auto">
         <h2 className="text-xl md:text-2xl font-semibold mb-4">Interests</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="bg-white shadow-md rounded-lg p-4 flex items-center">
+          <div className="bg-[#FAF9F6] shadow-md rounded-lg p-4 flex items-center">
             <FaGamepad size={30} className="text-blue-500 mr-4" />
             <span className="text-base md:text-lg font-semibold">Gaming</span>
           </div>
-          <div className="bg-white shadow-md rounded-lg p-4 flex items-center">
+          <div className="bg-[#FAF9F6] shadow-md rounded-lg p-4 flex items-center">
             <FaCode size={30} className="text-green-500 mr-4" />
             <span className="text-base md:text-lg font-semibold">Programming</span>
           </div>
-          <div className="bg-white shadow-md rounded-lg p-4 flex items-center">
+          <div className="bg-[#FAF9F6] shadow-md rounded-lg p-4 flex items-center">
             <FaFutbol size={30} className="text-orange-500 mr-4" />
             <span className="text-base md:text-lg font-semibold">Playing Soccer</span>
           </div>
-          <div className="bg-white shadow-md rounded-lg p-4 flex items-center">
+          <div className="bg-[#FAF9F6] shadow-md rounded-lg p-4 flex items-center">
             <FaPaintBrush size={30} className="text-purple-500 mr-4" />
             <span className="text-base md:text-lg font-semibold">Drawing</span>
           </div>

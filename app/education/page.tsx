@@ -6,29 +6,104 @@ import { FaSchool, FaGraduationCap } from 'react-icons/fa';
 export default function Education() {
   const educationItems = [
     {
-      school: 'University of Example',
-      year: '2018 - 2022',
-      degree: 'Bachelor of Science in Computer Science',
+      school: 'Testimony Upper',
+      year: '2021 - 2022',
+      degree: 'Secondary School',
       skills: [
         'Programming Fundamentals',
-        'Data Structures and Algorithms',
-        'Web Development',
-        'Database Management'
+        'Introduction to Computer Studies',
+        'Basic Mathematics',
+        'Problem Solving',
       ],
     },
     {
-      school: 'Example Community College',
-      year: '2016 - 2018',
-      degree: 'Associate Degree in Information Technology',
+      school: 'Moringa School',
+      year: '2023',
+      degree: 'Software Engineering',
       skills: [
-        'Networking Basics',
-        'Operating Systems',
-        'Technical Support',
-        'Introduction to Programming'
+        'Programming Fundamentals',
+        'Data Structures and Algorithms',
+        'Web Development (HTML, CSS, JavaScript)',
+        'Database Management (SQL, NoSQL)',
+        'Version Control (Git, GitHub)',
+      ],
+    },
+    {
+      school: 'Self Taught',
+      year: '2023 - 2024',
+      degree: 'Understanding Figma',
+      skills: [
+        'Graphics Fundamentals',
+        'User Interface Design (UI)',
+        'User Experience Design (UX)',
+        'Prototyping',
+        'Wireframing',
+        'Design Systems',
+      ],
+    },
+    {
+      school: 'Self Taught',
+      year: '2024',
+      degree: 'Adobe Illustrator',
+      skills: [
+        'Vector Graphics',
+        'Logo Design',
+        'Illustration Techniques',
+        'Typography',
+        'Branding Design',
+      ],
+    },
+    {
+      school: 'Self Taught',
+      year: '2024',
+      degree: 'Adobe InDesign',
+      skills: [
+        'Layout Design',
+        'Print Design',
+        'Typography',
+        'Magazine and Brochure Design',
+        'Page Formatting',
+      ],
+    },
+    {
+      school: 'Self Taught',
+      year: '2024',
+      degree: 'Adobe Photoshop',
+      skills: [
+        'Photo Editing',
+        'Image Manipulation',
+        'Digital Painting',
+        'Retouching',
+        'Compositing',
+      ],
+    },
+    {
+      school: 'Self Taught',
+      year: '2024',
+      degree: 'Microsoft Suite',
+      skills: [
+        'Microsoft Word',
+        'Microsoft Excel',
+        'Microsoft PowerPoint',
+        'Document Formatting',
+        'Data Analysis (Excel)',
+        'Presentation Skills',
+      ],
+    },
+    {
+      school: 'Self Taught',
+      year: '2024',
+      degree: 'WordPress Development',
+      skills: [
+        'Content Management Systems (CMS)',
+        'WordPress Theme Customization',
+        'Plugin Development',
+        'SEO Optimization',
+        'Website Management',
       ],
     }
-    // Add more educational entries as needed
   ];
+  
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -41,7 +116,7 @@ export default function Education() {
 
         <div className="max-w-4xl w-full">
           {educationItems.map((edu, index) => (
-            <div key={index} className="bg-white shadow-md rounded-lg p-6 mb-6">
+            <div key={index} className="bg-[#FAF9F6] shadow-md rounded p-6 mb-6">
               <div className="flex items-center mb-4">
                 <FaSchool size={30} className="text-blue-600 mr-4" />
                 <div className="flex-grow">

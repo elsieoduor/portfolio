@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa'; // Font Awesome alternatives
 import { 
   SiDjango, SiTailwindcss, SiMongodb, SiMysql, SiNextdotjs, SiFlask, 
-  SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop, SiVisualstudiocode
+  SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop, SiVisualstudiocode, SiFlutter
 } from 'react-icons/si'; // Other tech icons
 
 export default function Skills() {
@@ -47,9 +47,9 @@ export default function Skills() {
                 <p className="text-gray-700">Backend Language</p>
               </div>
               <div className="bg-[#FAF9F6] shadow-md rounded p-6 flex flex-col items-center text-center hover:bg-gray-100 transition">
-                <FaPhp size={40} className="text-purple-600 mb-4" />
-                <h3 className="text-xl font-bold mb-2">PHP</h3>
-                <p className="text-gray-700">Scripting Language</p>
+                <SiFlutter size={40} className="text-purple-600 mb-4" />
+                <h3 className="text-xl font-bold mb-2">Flutter</h3>
+                <p className="text-gray-700">Mobile Development</p>
               </div>
             </div>
           </section>
@@ -121,11 +121,6 @@ export default function Skills() {
                 <FaGithub size={40} className="text-black mb-4" />
                 <h3 className="text-xl font-bold mb-2">GitHub</h3>
                 <p className="text-gray-700">Code Hosting Platform</p>
-              </div>
-              <div className="bg-[#FAF9F6] shadow-md rounded p-6 flex flex-col items-center text-center hover:bg-gray-100 transition">
-                <FaWordpressSimple size={40} className="text-blue-600 mb-4" />
-                <h3 className="text-xl font-bold mb-2">WordPress</h3>
-                <p className="text-gray-700">CMS Platform</p>
               </div>
               <div className="bg-[#FAF9F6] shadow-md rounded p-6 flex flex-col items-center text-center hover:bg-gray-100 transition">
                 <FaMicrosoft size={40} className="text-blue-500 mb-4" />

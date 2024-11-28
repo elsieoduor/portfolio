@@ -44,7 +44,10 @@ export default function Contact() {
           {/* Email Card */}
           <div className="bg-[#FAF9F6] shadow-md rounded-lg p-6 flex flex-col items-center">
             <h2 className="text-xl font-bold mb-4">Email</h2>
-            <a href={`mailto:${email}`} className="text-blue-500 hover:underline">{email}</a>
+            <a href={`mailto:${email}`} className="text-blue-500 hover:underline">
+              <FaEnvelope size={30} className="text-red-600 hover:text-red-800 inline-block mr-2" />
+              {email}
+            </a>
           </div>
 
           {/* Phone Number Card */}

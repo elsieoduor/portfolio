@@ -29,7 +29,7 @@ export default function Home() {
               <li><a href="/contact" className="hover:underline">Contact</a></li>
             </ul>
             <div className="flex flex-wrap gap-6 mb-8">
-              <a href="https://www.linkedin.com/in/elsie-oduor-8844082a1/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/elsieoduor" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={30} className="text-white hover:text-gray-300" />
               </a>
               <a href="https://github.com/elsieoduor" target="_blank" rel="noopener noreferrer">
@@ -70,7 +70,7 @@ export default function Home() {
 
         {/* Social Media Links for Mobile */}
         <div className="md:hidden flex flex-wrap gap-6 mb-8">
-          <a href="https://www.linkedin.com/in/elsie-oduor-8844082a1/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/elsieoduor" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} className="text-white hover:text-gray-300" />
           </a>
           <a href="https://github.com/elsieoduor" target="_blank" rel="noopener noreferrer">
@@ -93,7 +93,7 @@ export default function Home() {
         </ul>
 
         <div className="hidden md:flex flex-wrap gap-6 mb-8">
-          <a href="https://www.linkedin.com/in/elsie-oduor-8844082a1/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/elsieoduor" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} className="text-white hover:text-gray-300" />
           </a>
           <a href="https://github.com/elsieoduor" target="_blank" rel="noopener noreferrer">

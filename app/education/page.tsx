@@ -93,13 +93,11 @@ export default function Education() {
     {
       school: 'Self Taught',
       year: '2024',
-      degree: 'WordPress Development',
+      degree: 'Fundamentals of Generative AI',
       skills: [
-        'Content Management Systems (CMS)',
-        'WordPress Theme Customization',
-        'Plugin Development',
-        'SEO Optimization',
-        'Website Management',
+        'Prompt Engineering',
+        'Understanding Generative AI Concepts',
+        'AI App Development'
       ],
     }
   ];

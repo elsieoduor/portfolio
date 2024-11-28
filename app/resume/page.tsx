@@ -26,8 +26,8 @@ export default function Resume() {
 
           {/* Software Engineering Card */}
           <a 
-            href="/Software Engineer Resume.pdf" 
-            download="Software Engineer Resume.pdf" 
+            href="/Elsie Oduor CV.pdf" 
+            download="Elsie Oduor CV.pdf" 
             className="bg-[#FAF9F6] shadow-md rounded p-6 flex flex-col items-center text-center hover:bg-gray-100 transition"
           >
             <FaLaptopCode size={40} className="text-green-600 mb-4" />

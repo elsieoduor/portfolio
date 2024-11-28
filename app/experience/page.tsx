@@ -29,17 +29,6 @@ export default function Experience() {
       ],
     },
     {
-      title: 'WordPress Developer',
-      company: 'Freelance',
-      year: '2024',
-      location: 'Nairobi, KE',
-      description: 'Created custom WordPress themes and plugins to enhance website functionality and design.',
-      highlights: [
-        'Delivered projects on time using PHP, HTML, CSS, and JavaScript',
-        'Leveraged WordPress and Elementor to improve website performance by 20%'
-      ],
-    },
-    {
       title: 'Hackathon Participant',
       company: 'Freelance',
       year: '2024',

@@ -11,7 +11,7 @@ interface Project {
   image: string;
 }
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 8;
 
 export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -67,12 +67,12 @@ export default function Projects() {
           >
             Frontend <FaDesktop className="ml-2" />
           </button>
-          <button
+          {/* <button
             onClick={() => setFilter('backend')}
             className={`px-4 py-2 rounded flex items-center ${buttonClass('backend')}`}
           >
             Backend <FaServer className="ml-2" />
-          </button>
+          </button> */}
           <button
             onClick={() => setFilter('graphics')}
             className={`px-4 py-2 rounded flex items-center ${buttonClass('graphics')}`}
@@ -82,23 +82,27 @@ export default function Projects() {
         </div>
 
         {/* Projects Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-6xl mx-auto">
           {currentProjects.map(project => (
-            <Link href={`/projects/${project.id}`} key={project.id} passHref className="bg-[#FAF9F6] shadow-md rounded overflow-hidden">
-              <div className="w-full h-48"> {/* Fixed height for uniformity */}
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-full object-cover" 
+            <Link
+              href={`/projects/${project.id}`}
+              key={project.id}
+              passHref
+              className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition"
+            >
+              <div className="w-full h-48 overflow-hidden rounded-md">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="object-cover w-full h-full max-w-full max-h-full"
                 />
               </div>
               <div className="p-4">
                 <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
-              </div> 
+              </div>
             </Link>
           ))}
         </div>
-
 
         {/* Pagination Controls */}
         <div className="mt-6 flex justify-center gap-2">

@@ -21,7 +21,7 @@ export default function About() {
         </div>
 
         {/* Information Section */}
-        <div className="w-full md:w-2/3 md:pl-6">
+        <div className="w-full md:w-2/3 md:pl-6 text-[#F5F5F5]">
           <h1 className="text-2xl md:text-3xl font-bold mb-4">About Me</h1>
           <p className="text-base md:text-lg mb-4">
             Hello! I'm Elsie Oduor, a passionate Graphics Designer and Fullstack Developer with a knack for creating beautiful and functional user experiences. I have a diverse skill set, including expertise in both frontend and backend development, and a strong background in graphic design.
@@ -58,12 +58,8 @@ export default function About() {
             <span className="text-base md:text-lg font-semibold">Programming</span>
           </div>
           <div className="bg-[#FAF9F6] shadow-md rounded-lg p-4 flex items-center">
-            <FaFutbol size={30} className="text-orange-500 mr-4" />
-            <span className="text-base md:text-lg font-semibold">Playing Soccer</span>
-          </div>
-          <div className="bg-[#FAF9F6] shadow-md rounded-lg p-4 flex items-center">
             <FaPaintBrush size={30} className="text-purple-500 mr-4" />
-            <span className="text-base md:text-lg font-semibold">Drawing</span>
+            <span className="text-base md:text-lg font-semibold">Arts and Crafts</span>
           </div>
         </div>
       </div>

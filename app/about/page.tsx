@@ -12,13 +12,13 @@ export default function About() {
       {/* Main Content */}
       <main className="flex flex-col md:flex-row items-center md:items-start p-6">
         {/* Image Section */}
-        <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
+        {/* <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
           <img
             src="/projects/profile.jpg" 
             alt="Elsie Oduor"
             className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover border-4 border-blue-800"
           />
-        </div>
+        </div> */}
 
         {/* Information Section */}
         <div className="w-full md:w-2/3 md:pl-6 text-[#F5F5F5]">
